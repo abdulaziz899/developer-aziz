@@ -1,0 +1,42 @@
+.headerControls a{
+    list-style: none;
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.headerControls a:hover{
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.logoControls{
+    width: 50%;
+    border-radius: 50%;
+    height: 50%;
+
+}
+.logoControls img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.navbarControls{
+    width: 50%;
+}
+.headerControls{
+    display:flex;
+    justify-content: space-between;
+}
+.homeContainer{
+    background-color: rgb(194, 183, 183);
+}
+@media(max-width:600px){
+    .logoControls{
+        width: 100%;
+    }
+    .headerControls{
+        display: block;
+    }
+    .navbarControls{
+        width: 100%;
+    }
+}

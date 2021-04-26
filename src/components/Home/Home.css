@@ -1,0 +1,102 @@
+.statusContainer{
+    width: 100%;
+    height: 100%;
+    padding: 50px 0px;
+}
+.imageControl{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.details h5{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+.details h2{
+    color: rgb(78, 7, 245);
+    font-size: 25px;
+}
+.details{
+    width: 80%;
+    height: 400px;
+    padding-top :20%; 
+    margin: 0px auto;
+}
+.details Button{
+    width: 50px;
+    margin: 0px 10px ;
+    transition: ease-in-out .5s ;
+}
+.details Button:hover{
+    transform: scale(1.1);
+}
+.borderLine{
+    width: 100px;
+    height: 4px;
+    background-color: rgb(241, 3, 190);
+    margin: 10px auto;
+}
+.servicesBox{
+    width: 100%;
+    height: 320px;
+    padding: 20px;
+    background-color: rgb(231, 229, 226);
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px slategrey;
+    transition: ease-in-out .5s;
+}
+.rowContainer{
+    justify-content:space-between;
+}
+.servicesBox:hover{
+    background-color: rgba(118, 153, 97, 0.603);
+    color: aliceblue;
+    transform: scale(1.1);
+
+}
+.servicesBox Button{
+    transition: ease-in-out .5s;
+}
+.servicesBox Button:hover{
+    background-color: rgb(39, 26, 156);
+    transform: scale(1.1);
+}
+.imageControls{
+    width: 75%;
+    height: 100%;
+    border-radius: 20px;
+}
+.aboutContainer{
+    margin: auto 0px;
+}
+.facebookContact{
+    font-size: 30px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.skills{
+    width: 100%;
+    height: 50%;
+    box-shadow: 10px 10px 30px grey;
+    padding: 50px 10px;
+    background-color: wheat;
+    border-radius: 20px;
+}
+.progressBar{
+    width: 70px;
+    height: 70px;
+}
+
+
+@media(max-width:650px){
+    .imageControl{
+        margin: 100px 0px 0px 0px ;
+    }
+    .progressBar{
+        width: 60px;
+        height: 60px;
+    
+    }
+}
