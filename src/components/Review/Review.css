@@ -1,0 +1,27 @@
+.reviewContainer{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.reviewContainer input{
+    margin: 20px 0px;
+}
+.fontSize{
+    font-size: 50px;
+}
+.hoverNow{
+    transition: ease-in-out .5s;
+}
+.hoverNow:hover{
+    transform: scale(1.1);
+}
+@media(max-width:600px){
+    .reviewContainer{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    .reviewContainer input{
+        width: 100%;
+    }
+}

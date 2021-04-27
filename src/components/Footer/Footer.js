@@ -23,7 +23,9 @@ const Footer = () => {
                         <ul class="footer-links  text-white">
                             <li><a href="#">HTML5</a></li>
                             <li><a href="#">CSS3</a></li>
-                            <li><a href="#">Ui Design</a></li>
+                            <li><a href="#">Node </a></li>
+                            <li><a href="#">Express</a></li>
+                            <li><a href="#">Mongodb</a></li>
                             <li><a href="#">React</a></li>
                             <li><a href="#">Javascript</a></li>
                             <li><a href="#">Bootstrap-4</a></li>
@@ -43,11 +45,11 @@ const Footer = () => {
             </div>
             <div className="container">
                 <div className="row">
-                <div className="col-md-8 col-sm-6 col-xs-12">
-                    <p className="copyright-text ">Copyright &copy; 2021 by Abdul Aziz</p>
+                <div className="col-md-8  col-sm-12 col-xs-12">
+                    <p className="copyright-text w-100 ">Copyright &copy; 2021 by Abdul Aziz</p>
                 </div>
         
-                <div className="col-md-4 col-sm-6 col-xs-12">
+                <div className="col-md-4 col-sm-12 col-xs-12">
                     <ul class="social-icons">
                     <li><a class="facebook" href="#"> <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon> </a></li>
                     <li><a class="twitter" href="#"><FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></a></li>

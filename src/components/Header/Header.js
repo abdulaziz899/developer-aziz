@@ -2,7 +2,7 @@ import { Button } from 'react-bootstrap';
 import React from 'react';
 import Aziz from '../../Img/aziz.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { useHistory } from 'react-router';
 import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons';
 const Header = () => {
@@ -24,8 +24,9 @@ const Header = () => {
                     <div className=''>
                         <h2 className=' py-4'>Contact Now </h2>
                         <Button className='btn-primary'><FontAwesomeIcon icon={faFacebookF}/></Button>
-                        <Button className='btn-primary'><FontAwesomeIcon icon={faFacebookF}/></Button>
-                        <Button className='btn-primary'><FontAwesomeIcon icon={faFacebookF}/></Button>
+                        <Button className='btn-secondary'><FontAwesomeIcon icon={faTwitter}/></Button>
+                        <Button className='btn-info'><FontAwesomeIcon icon={faLinkedin}/></Button>
+                        <Button className='btn-dark'><FontAwesomeIcon icon={faGithub}/></Button>
                     </div>
                 </div>
                 <div className='pt-5 my-5'>

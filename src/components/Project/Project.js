@@ -15,11 +15,11 @@ const Project = () => {
         history.push('/project');
     }
     return (
-        <section className='mt-5 mx-3'>
-            <div className=''>
+        <section className='my-5 mx-3'>
+            
             <h3 className='ml-5 pl-5'>Some of Success Full Working Project .....  <button onClick={showMore} className="btn btn-info">All Project  <FontAwesomeIcon icon={faArrowCircleRight}></FontAwesomeIcon> </button> </h3>
             <div className="row my-5">
-                <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="col-lg-4  col-md-6 col-sm-12">
                     <div className="text-center text-capitalize projectBox">
                         <div>
                             <div className='projectImG'>
@@ -41,13 +41,13 @@ const Project = () => {
                             <button className="btn btn-success">Express</button>
                             <button className="btn btn-success">Firebase</button>
                             <button className="btn btn-success">Mongodb</button>
-                            <button className="btn btn-success">React Router </button>
+                            <button className="btn btn-success"> Router </button>
                             <button className="btn btn-success">Heroku</button>
 
                         </div>
                     </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
+            <div className="col-lg-4  col-md-6 col-sm-12">
                     <div className="text-center text-capitalize projectBox">
                         <div>
                             <div className='projectImG'>
@@ -101,7 +101,6 @@ const Project = () => {
                             <button className="btn btn-success">Material Ui</button>
                         </div>
                     </div>
-            </div>
             </div>
             </div>
         </section>

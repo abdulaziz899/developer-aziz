@@ -1,13 +1,18 @@
-import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons';
+import { faArrowAltCircleRight, faHome } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 import dev from '../../Img/aaasvg.svg';
+import './AboutDetail.css'
 
-const AboutDetail = () => {const history=useHistory();
+const AboutDetail = () => {
+    const history=useHistory();
     const handleTouch=()=>{
         history.push('/contact');
+    };
+    const goHome=()=>{
+        history.push('/');
     };
     
     return (
@@ -29,7 +34,9 @@ const AboutDetail = () => {const history=useHistory();
                     </div>
                 </div>
             </section>
-            
+            <div className="goHomeBottom">
+                <Button  onClick={goHome} className=' btn-success'> <FontAwesomeIcon className='mr-3' icon={faHome}></FontAwesomeIcon> Home</Button>
+            </div>
         </div>
     );
 };
