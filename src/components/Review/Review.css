@@ -15,6 +15,18 @@
 .hoverNow:hover{
     transform: scale(1.1);
 }
+.reviewContainer{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+@media(max-width:800px){
+    .reviewContainer{
+        grid-template-columns: auto auto;
+    }
+}
 @media(max-width:600px){
     .reviewContainer{
         width: 100%;
@@ -23,5 +35,8 @@
     }
     .reviewContainer input{
         width: 100%;
+    }
+    .reviewContainer{
+        grid-template-columns: auto;
     }
 }

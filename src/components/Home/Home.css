@@ -39,7 +39,7 @@
 }
 .servicesBox{
     width: 100%;
-    height: 320px;
+    height: 300px;
     padding: 20px;
     background-color: rgb(231, 229, 226);
     border-radius: 20px;
@@ -47,7 +47,11 @@
     transition: ease-in-out .5s;
 }
 .rowContainer{
-    justify-content:space-between;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
 }
 .servicesBox:hover{
     background-color: rgba(118, 153, 97, 0.603);
@@ -89,6 +93,11 @@
     height: 70px;
 }
 
+@media(max-width:800px){
+    .rowContainer{
+        grid-template-columns: auto auto;
+    }
+}
 
 @media(max-width:650px){
     .imageControl{
@@ -97,6 +106,8 @@
     .progressBar{
         width: 60px;
         height: 60px;
-    
+    }
+    .rowContainer{
+        grid-template-columns: auto;
     }
 }

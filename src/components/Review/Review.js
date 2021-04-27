@@ -14,7 +14,7 @@ const Review = () => {
     return (
         <div className='container'>
             <h1 className='text-center text-success py-5'>User Testimonial </h1>
-            <div class="card-deck">
+            <div class="reviewContainer">
                 {
                     reviews.map(review=><ReviewDetail key={review._id} review={review}></ReviewDetail>)
                 }
