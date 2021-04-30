@@ -26,27 +26,7 @@ const Services = () => {
                             <p>The role is responsible for designing, coding and modifying websites, from layout to function and according to a client's specifications. </p>
                         </div>
                     </div>
-                    <div className=" text-center py-5">
-                        <div className='servicesBox'>
-                            <Button className='btn-success'><FontAwesomeIcon  icon={faSketch}/></Button>
-                            <h3 className='py-2 text-info'>Web Designer</h3>
-                            <p>A web designer is responsible for creating the design and layout of a website or web pages.</p>
-                        </div>
-                    </div>
-                    <div className=" text-center py-5">
-                        <div className='servicesBox'>
-                            <Button className='btn-success'><FontAwesomeIcon  icon={faAndroid}/></Button>
-                            <h3 className='py-2 text-info'>Android Development</h3>
-                            <p>An Android developer is responsible for developing applications for devices powered by the Android operating system. Due to the fragmentation of this ecosystem.</p>
-                        </div>
-                    </div>
-                    <div className=" text-center py-5">
-                            <div className='servicesBox'>
-                                <Button className='btn-success'><FontAwesomeIcon  icon={faDesktop}/></Button>
-                                <h3 className='py-2 text-info'>Desktop Development</h3>
-                                <p>your responsibilities will depend on the type of applications you create, the expectations of your employer.</p>
-                            </div>
-                        </div>
+                    
                         <div className="  text-center py-5">
                             <div className=' servicesBox'>
                                 <Button className='btn-success'><FontAwesomeIcon  icon={faReact}/></Button>

@@ -1,5 +1,5 @@
 .reviewContainer{
-    width: 50%;
+    width: 100%;
     height: 100%;
     text-align: center;
 }
@@ -9,8 +9,21 @@
 .fontSize{
     font-size: 50px;
 }
+.reviewContainers{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+.hoverNow img{
+    margin-left: 20%;
+}
 .hoverNow{
     transition: ease-in-out .5s;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 30px;
 }
 .hoverNow:hover{
     transform: scale(1.1);
@@ -22,12 +35,15 @@
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
 }
-@media(max-width:800px){
+@media(max-width:850px){
     .reviewContainer{
         grid-template-columns: auto auto;
     }
+    .reviewContainers{
+        grid-template-columns:  auto auto;
+    }
 }
-@media(max-width:600px){
+@media(max-width:700px){
     .reviewContainer{
         width: 100%;
         height: 100%;
@@ -38,5 +54,8 @@
     }
     .reviewContainer{
         grid-template-columns: auto;
+    }
+    .reviewContainers{
+        grid-template-columns:  auto;
     }
 }

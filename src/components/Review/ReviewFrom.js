@@ -20,7 +20,7 @@ const ReviewFrom = () => {
         };
         console.log(data);
         console.log(reviewDetail)
-        const url=`http://localhost:2000/addReview`;
+        const url=`https://fathomless-brushlands-27240.herokuapp.com/addReview`;
         fetch(url,{
             method:'POST',
             headers:{'Content-Type':'application/json'},

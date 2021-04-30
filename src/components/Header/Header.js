@@ -23,7 +23,7 @@ const Header = () => {
                     <Button style={{width:"150px"}} onClick={handleAboutMe} className='btn-success '>About Me<FontAwesomeIcon className='ml-3' icon={faArrowAltCircleRight}></FontAwesomeIcon> </Button>
                     <div className=''>
                         <h2 className=' py-4'>Contact Now </h2>
-                        <Button className='btn-primary'><FontAwesomeIcon icon={faFacebookF}/></Button>
+                        <Button className='btn-primary'>  </Button>
                         <Button className='btn-secondary'><FontAwesomeIcon icon={faTwitter}/></Button>
                         <Button className='btn-info'><FontAwesomeIcon icon={faLinkedin}/></Button>
                         <Button className='btn-dark'><FontAwesomeIcon icon={faGithub}/></Button>

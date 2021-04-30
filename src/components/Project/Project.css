@@ -1,6 +1,6 @@
 .projectBox{
-    width: 100%;
-    height: 600px;
+    width: 400px;
+    height: 500px;
     background-color: antiquewhite;
     box-shadow: 10px 30px 30px grey;
     transition: ease-in-out 0.5s;
@@ -14,7 +14,7 @@
 .projectBox img{
     border-radius: 20px;
     width: 100%;
-    height: 300px;
+    height: 250px;
 }
 .projectBox p{
     text-align: left;
@@ -28,8 +28,10 @@
     position: relative;
 }
 .codeLink{
-    position: relative;
-    top: -170px;
+    position: absolute;
+    top: 100px;
+    left: 30%;
+    
 }
 .positions{
     position: fixed;
@@ -37,9 +39,27 @@
     right: 0;
     z-index: 1;
 }
-@media(max-width:600px){
+.projectHomeContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+}
+@media(max-width:1000px){
+    
+    .projectHomeContainer{
+        grid-template-columns: auto auto;
+    }
+}
+@media(max-width:700px){
     .projectBox{
         width: 100%;
-        height: 700px;
+        height: 550px;
+    }
+    .projectHomeContainer{
+        grid-template-columns:  auto;
+    }
+    .codeLink{
+        left: 20%;
+        
     }
 }
