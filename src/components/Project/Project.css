@@ -1,12 +1,11 @@
 .projectBox{
-    width: 400px;
+    width:380px;
     height: 500px;
     background-color: antiquewhite;
-    box-shadow: 10px 30px 30px grey;
+    box-shadow: 10px 30px 30px rgb(194, 191, 191);
     transition: ease-in-out 0.5s;
     border-radius: 20px; 
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 .projectBox:hover{
     transform: rotateY(-25deg);
@@ -30,14 +29,8 @@
 .codeLink{
     position: absolute;
     top: 100px;
-    left: 30%;
+    left: 26%;
     
-}
-.positions{
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    z-index: 1;
 }
 .projectHomeContainer{
     display: grid;
@@ -45,9 +38,29 @@
     grid-gap: 30px;
 }
 @media(max-width:1000px){
-    
+    .projectBox{
+        width: 330px;
+        height: 580px;
+    }
     .projectHomeContainer{
         grid-template-columns: auto auto;
+    }
+    .codeLink{
+        left: 30%;
+        
+    }
+}
+@media(max-width:800px){
+    .projectBox{
+        width: 350px;
+        height: 580px;
+    }
+    .projectHomeContainer{
+        grid-template-columns: auto auto;
+    }
+    .codeLink{
+        left: 23%;
+        
     }
 }
 @media(max-width:700px){
@@ -56,10 +69,10 @@
         height: 550px;
     }
     .projectHomeContainer{
-        grid-template-columns:  auto;
+        grid-template-columns: auto;
     }
     .codeLink{
-        left: 20%;
+        left: 30%;
         
     }
 }

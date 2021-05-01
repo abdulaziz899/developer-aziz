@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import Aziz from '../../Img/aziz.png'
+import Aziz from '../../Img/azizBack.png'
 import Footer from '../Footer/Footer';
 import './Contact.css';
 
@@ -23,7 +23,7 @@ const Contact = () => {
                         <h5>Email : <a href="https://www.gmail.com/developer.aziz899@gmail.com"></a> developer.aziz899@gmail.com </h5>
                         <h4>Linkedin : <a className=' text-decoration-none' href="https://www.linkedin.com/in/developer-aziz899/" target='_blank'>Linkedin </a></h4>
                         <h4>Facebook : <a className=' text-decoration-none' href="https://www.facebook.com/profile.php?id=100011076887267" target='_blank'>Facebook</a></h4>
-                        <a href="https://drive.google.com/file/d/1PPFLl0K73aVhYUQXWsBv_c1yNdnfKYtG/view?usp=sharing" target='_blank'><Button className='btn-danger m-3'><FontAwesomeIcon className='mr-3' icon={faFileAlt}></FontAwesomeIcon> Resume</Button></a>
+                        <a href="https://drive.google.com/file/d/1PPFLl0K73aVhYUQXWsBv_c1yNdnfKYtG/view?usp=sharing" target='_blank'><Button className='btn-primary m-3'><FontAwesomeIcon className='mr-3' icon={faFileAlt}></FontAwesomeIcon> Resume</Button></a>
                         <Link to='/'><Button className='btn-primary m-3'> <FontAwesomeIcon className='mr-3' icon={faHome}></FontAwesomeIcon> Home</Button></Link>
                         
                     </div>

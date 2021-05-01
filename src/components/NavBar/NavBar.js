@@ -37,7 +37,7 @@ const NavBar = () => {
                                     <a className="nav-link" ><Link className=' headerControlsLink' to="/review">Review</Link></a>
                                 </li>
                             </ul>
-                            <a href="https://drive.google.com/file/d/1PPFLl0K73aVhYUQXWsBv_c1yNdnfKYtG/view?usp=sharing" target='_blank'><button className="btn btn-warning ml-2 resumeFixed">Resume</button></a>
+                            <a className='mt-2' href="https://drive.google.com/file/d/1PPFLl0K73aVhYUQXWsBv_c1yNdnfKYtG/view?usp=sharing" target='_blank'><button className="btn btn-light ml-2 resumeFixed">Resume</button></a>
                         </div>
                     </div>
                 </nav>

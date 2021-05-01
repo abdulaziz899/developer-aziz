@@ -11,7 +11,7 @@ const WebSkills = () => {
     return (
         <div>
            <section>
-                <h2 className='text-center text-primary'>MY SKILLS</h2>
+                <h2 className='text-center '>MY SKILLS</h2>
                 <div className='skillContainer'>
                     <button onClick={handleTouch} type="button"  className='btn btn-outline-success active'>Web</button>
                     <Link to='/other'><button className='btn btn-outline-success'>Other</button></Link> 

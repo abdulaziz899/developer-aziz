@@ -10,41 +10,31 @@ const Services = () => {
         <section className='container pt-5 mt-5'>
             <section className='services  pt-2 text-center'>
                 <div className='py-2'>
-                    <h4 className='text-danger'>Services</h4>
-                    <h2 className='text-info'>MY SERVICES</h2>
+                    <h4 className=''>Services</h4>
+                    <h2 className=''>MY SERVICES</h2>
                     <p>I,m creating responsive web site and web development </p>
                     <div className='borderLine '></div>
                 </div>
             </section>
-
-            <section>
-            <div className=" rowContainer  ">
-                    <div className=" text-center py-5">
-                        <div className='servicesBox'>
+            <div className=" rowContainer my-5  ">
+                    <div className="servicesBox text-center py-5">
                             <Button className='btn-success'><FontAwesomeIcon  icon={faFileCode}/></Button>
-                            <h3 className='py-2 text-info'>Web Development</h3>
+                            <h3 className='py-2 '>Web Developer</h3>
                             <p>The role is responsible for designing, coding and modifying websites, from layout to function and according to a client's specifications. </p>
-                        </div>
                     </div>
                     
-                        <div className="  text-center py-5">
-                            <div className=' servicesBox'>
+                        <div className="  servicesBox text-center py-5">
                                 <Button className='btn-success'><FontAwesomeIcon  icon={faReact}/></Button>
-                                <h3 className='py-2 text-info'>React Development</h3>
+                                <h3 className='py-2 '>React Developer</h3>
                                 <p>your responsibilities will depend on the type of applications you create, the expectations of your employer.</p>
-                            </div>
+                         
                         </div>
-                        <div className=" text-center py-5">
-                            <div className='servicesBox'>
+                        <div className="servicesBox text-center py-5">
                                 <Button className='btn-success'><FontAwesomeIcon  icon={faJs}/></Button>
-                                <h3 className='py-2 text-info'>Javascript Development</h3>
+                                <h3 className='py-2 '>Javascript Developer</h3>
                                 <p>your responsibilities will depend on the type of applications you create, the expectations of your employer.</p>
-                            </div>
                         </div>
                 </div>
-                
-            </section>
-            
         </section>
     );
 };

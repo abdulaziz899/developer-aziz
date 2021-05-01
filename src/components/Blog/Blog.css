@@ -3,3 +3,22 @@
     right: 0;
     top: 10;
 }
+.blogContainer{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+}
+.status{
+    width: 350px;
+    height: 400px;
+}
+@media(max-width:850px){
+    .blogContainer{
+        grid-template-columns:  auto auto;
+    }
+}
+@media(max-width:650px){
+    .blogContainer{
+        grid-template-columns: auto;
+    }
+}

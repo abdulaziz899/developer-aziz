@@ -14,8 +14,8 @@
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
 }
-.hoverNow img{
-    margin-left: 20%;
+.hoverNow p{
+    text-align: left;
 }
 .hoverNow{
     transition: ease-in-out .5s;

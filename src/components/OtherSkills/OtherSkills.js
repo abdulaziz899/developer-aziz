@@ -6,8 +6,8 @@ const OtherSkills = () => {
             <div className=' mt-2 row'>
                 <div style={{height:"100px"}} className="col-md-5 col-sm-12 bg-secondary shadow ">
                     <div className='mt-3 d-flex justify-content-between text-white'>
-                        <h1>HTML5</h1>
-                        <h1>85%</h1>
+                        <h2>HTML5</h2>
+                        <h2>85%</h2>
                     </div>
                     <div className="progress ">
                         <div class="progress-bar bg-success" role="progressbar" style={{width: "85%"}} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
@@ -17,8 +17,8 @@ const OtherSkills = () => {
                 <div style={{height:"100px"}} className="col-md-5  col-sm-12 bg-secondary shadow ">
                     <div>
                         <div className='mt-3 d-flex justify-content-between text-white'>
-                            <h1>CSS3</h1>
-                            <h1>85%</h1>
+                            <h2>CSS3</h2>
+                            <h2>85%</h2>
                         </div>
                         <div className="progress ">
                             <div class="progress-bar bg-success" role="progressbar" style={{width: "85%"}} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
@@ -29,8 +29,8 @@ const OtherSkills = () => {
             <div className=' mt-2 row'>
                 <div style={{height:"100px"}} className="col-md-5 col-sm-12 bg-secondary shadow ">
                     <div className='mt-3 d-flex justify-content-between text-white'>
-                        <h1>Bootstrap</h1>
-                        <h1>90%</h1>
+                        <h2>Bootstrap</h2>
+                        <h2>90%</h2>
                     </div>
                     <div className="progress ">
                         <div class="progress-bar bg-success" role="progressbar" style={{width: "90%"}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
@@ -40,8 +40,8 @@ const OtherSkills = () => {
                 <div style={{height:"100px"}} className="col-md-5  col-sm-12 bg-secondary shadow ">
                     <div>
                         <div className='mt-3 d-flex justify-content-between text-white'>
-                            <h1>React Bootstrap</h1>
-                            <h1>90%</h1>
+                            <h2>React Bootstrap</h2>
+                            <h2>90%</h2>
                         </div>
                         <div className="progress ">
                             <div class="progress-bar bg-success" role="progressbar" style={{width: "90%"}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
@@ -52,8 +52,8 @@ const OtherSkills = () => {
             <div className=' row mt-2'>
                 <div style={{height:"100px"}} className="col-md-5 col-sm-12 bg-secondary shadow ">
                     <div className='mt-3 d-flex justify-content-between text-white'>
-                        <h1>JavaScript</h1>
-                        <h1>75%</h1>
+                        <h2>JavaScript</h2>
+                        <h2>75%</h2>
                     </div>
                     <div className="progress ">
                         <div class="progress-bar bg-success" role="progressbar" style={{width: "75%"}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -63,8 +63,8 @@ const OtherSkills = () => {
                 <div style={{height:"100px"}} className="col-md-5  col-sm-12 bg-secondary shadow ">
                     <div>
                         <div className='mt-3 d-flex justify-content-between text-white'>
-                            <h1>React Native</h1>
-                            <h1>50%</h1>
+                            <h2>React Native</h2>
+                            <h2>50%</h2>
                         </div>
                         <div className="progress ">
                             <div class="progress-bar bg-success" role="progressbar" style={{width: "50%"}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
@@ -75,8 +75,8 @@ const OtherSkills = () => {
             <div className=' mt-2 row '>
                 <div style={{height:"100px"}} className="col-md-5 col-sm-12 bg-secondary shadow ">
                     <div className='mt-3 d-flex justify-content-between text-white'>
-                        <h1>SCSS</h1>
-                        <h1>60%</h1>
+                        <h2>SCSS</h2>
+                        <h2>60%</h2>
                     </div>
                     <div className="progress ">
                         <div class="progress-bar bg-success" role="progressbar" style={{width: "60%"}} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
@@ -86,8 +86,8 @@ const OtherSkills = () => {
                 <div style={{height:"100px"}} className="col-md-5  col-sm-12 bg-secondary shadow ">
                     <div>
                         <div className='mt-3 d-flex justify-content-between text-white'>
-                            <h1>Redux</h1>
-                            <h1>40%</h1>
+                            <h2>Redux</h2>
+                            <h2>40%</h2>
                         </div>
                         <div className="progress ">
                             <div class="progress-bar bg-success" role="progressbar" style={{width: "40%"}} aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>

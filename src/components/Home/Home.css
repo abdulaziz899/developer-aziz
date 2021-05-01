@@ -4,9 +4,8 @@
     padding: 50px 0px;
 }
 .imageControl{
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
+    width: 80%;
+    height: 80%;
 }
 .details h5{
     color: rgb(0, 0, 0);
@@ -14,14 +13,13 @@
 }
 
 .details h2{
-    color: rgb(78, 7, 245);
+    color: rgb(12, 12, 12);
     font-size: 25px;
 }
 .details{
-    width: 80%;
+    width: 100%;
     height: 400px;
-    padding-top :20%; 
-    margin: 0px auto;
+    margin-top :40%; 
 }
 .details Button{
     width: 50px;
@@ -34,31 +32,34 @@
 .borderLine{
     width: 100px;
     height: 4px;
-    background-color: rgb(241, 3, 190);
+    background-color: rgb(3, 3, 3);
     margin: 10px auto;
 }
 .servicesBox{
     width: 100%;
     height: 300px;
-    padding: 20px;
-    background-color: rgb(231, 229, 226);
+    padding: 25x;
+    background-color: rgb(240, 239, 238);
     border-radius: 20px;
-    box-shadow: 10px 10px 30px slategrey;
+    box-shadow: 10px 10px 30px rgb(203, 205, 206);
     transition: ease-in-out .5s;
 }
 .rowContainer{
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 20px;
+    grid-gap: 40px;
 }
 .servicesBox:hover{
-    background-color: rgba(118, 153, 97, 0.603);
-    color: aliceblue;
-    transform: scale(1.1);
+    background-color: rgba(227, 229, 226, 0.603);
+    color: rgb(10, 10, 10);
+    transform: scale(1.07);
 
 }
 .servicesBox Button{
     transition: ease-in-out .5s;
+}
+.servicesBox p{
+    text-align: left;
 }
 .servicesBox Button:hover{
     background-color: rgb(39, 26, 156);
@@ -90,22 +91,45 @@
     width: 70px;
     height: 70px;
 }
-
+.headerContainers{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
 @media(max-width:900px){
     .rowContainer{
         grid-template-columns: auto auto;
+    }
+    .details Button{
+        margin: 10px ;
+    }
+    .imageControl{
+        width: 100%;
+        height: 90%;
     }
 }
 
 @media(max-width:650px){
     .imageControl{
-        margin: 100px 0px 0px 0px ;
+        width: 100%;
+        height: 100%;
     }
     .progressBar{
         width: 60px;
         height: 60px;
     }
     .rowContainer{
+        grid-template-columns: auto;
+    }
+    .details Button{
+        margin: 5px 5px 5px 0px ;
+    }
+    .iconsButton a Button{
+        margin: 6px;
+    }
+    .headerContainers{
         grid-template-columns: auto;
     }
 }

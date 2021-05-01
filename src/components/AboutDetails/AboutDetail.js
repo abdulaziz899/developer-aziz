@@ -20,7 +20,7 @@ const AboutDetail = () => {
             <section className='my-5'>
                 <div className='row my-5'>
                     <div className=' col-lg-6 col-sm-12 my-5 py-5'>
-                        <h2 className='text-info'>ABOUT ME</h2>
+                        <h2 className='text-success'>ABOUT ME</h2>
                         <ul className='d-flex w-75 justify-content-between'>
                             <li>Web Developer</li>
                             <li>Programmer</li>
