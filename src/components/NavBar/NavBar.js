@@ -1,42 +1,7 @@
-// import React from 'react';
-// import { Nav, Navbar } from 'react-bootstrap';
-// import { Link } from 'react-router-dom';
-// import './NavBar.css'
-// import Logo from "../../Img/web-log.png";
-// const NavBar = () => {
-//     return (
-//         <div>
-//             <Navbar bg="dark" variant="dark ">
-//                 <div className=" headerContainer container">
-//                     <div className="logoControls">
-//                         <Navbar.Brand href="#home">
-//                             <img  src={Logo} alt=""/>
-//                         </Navbar.Brand>
-//                     </div>
-//                     <div className="navbarControls">
-//                         <Nav className="mr-auto headerControls">
-//                             <a><Link to="/home">Home</Link></a>
-//                             <a><Link to="/About">About</Link></a>
-//                             <a><Link to="/blog">Blog</Link></a>
-//                             <a><Link to="/project">Project</Link></a>
-//                             <a><Link to="/service">Service</Link></a>
-//                             <a><Link to="/contact">Contact</Link></a>
-//                             <a><Link to="/review">Review</Link></a>
-//                             <a><Link to="/login">Login</Link></a>
-//                         </Nav>
-//                     </div>
-//                 </div>
-//             </Navbar>
-//         </div>
-//     );
-// };
-
-// export default NavBar;
-
 
 import React from 'react';
 import './NavBar.css'
-import Logo from "../../Img/web-log.png";
+import Logo from "../../Img/myL.jpg";
 import { Link } from 'react-router-dom';
 
 const NavBar = () => {
@@ -72,7 +37,7 @@ const NavBar = () => {
                                     <a className="nav-link" ><Link className=' headerControlsLink' to="/review">Review</Link></a>
                                 </li>
                             </ul>
-                            <button className="btn btn-warning ml-2 resumeFixed">Resume</button>
+                            <a href="https://drive.google.com/file/d/1PPFLl0K73aVhYUQXWsBv_c1yNdnfKYtG/view?usp=sharing" target='_blank'><button className="btn btn-warning ml-2 resumeFixed">Resume</button></a>
                         </div>
                     </div>
                 </nav>

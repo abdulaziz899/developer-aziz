@@ -22,11 +22,12 @@ const Header = () => {
                     <Button style={{width:"200px"}} onClick={handleTouch} className='btn-success '>Get in touch  <FontAwesomeIcon className='ml-3' icon={faArrowAltCircleRight}></FontAwesomeIcon> </Button>
                     <Button style={{width:"150px"}} onClick={handleAboutMe} className='btn-success '>About Me<FontAwesomeIcon className='ml-3' icon={faArrowAltCircleRight}></FontAwesomeIcon> </Button>
                     <div className=''>
+
                         <h2 className=' py-4'>Contact Now </h2>
-                        <Button className='btn-primary'>  </Button>
-                        <Button className='btn-secondary'><FontAwesomeIcon icon={faTwitter}/></Button>
-                        <Button className='btn-info'><FontAwesomeIcon icon={faLinkedin}/></Button>
-                        <Button className='btn-dark'><FontAwesomeIcon icon={faGithub}/></Button>
+                        <a href="https://web.facebook.com/profile.php?id=100011076887267" target='_blank'><Button className='btn-primary'> <FontAwesomeIcon icon={faFacebookF}/></Button> </a>
+                        <a href="https://twitter.com/DAziz889" target='_blank'><Button className='btn-secondary'><FontAwesomeIcon icon={faTwitter}/></Button></a>
+                        <a href="https://www.linkedin.com/in/developer-aziz899/" target='_blank'><Button className='btn-info'><FontAwesomeIcon icon={faLinkedin}/></Button></a>
+                        <a href="https://github.com/abdulaziz899" target='_blank'><Button className='btn-dark'><FontAwesomeIcon icon={faGithub}/></Button></a>
                     </div>
                 </div>
                 <div className='pt-5 my-5'>

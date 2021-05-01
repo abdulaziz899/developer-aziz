@@ -1,4 +1,4 @@
-import { faDribbble, faFacebook, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faFacebook, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -51,10 +51,10 @@ const Footer = () => {
         
                 <div className="col-md-4 col-sm-12 col-xs-12">
                     <ul class="social-icons">
-                    <li><a class="facebook" href="#"> <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon> </a></li>
-                    <li><a class="twitter" href="#"><FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></a></li>
-                    <li><a class="dribbble" href="#"><FontAwesomeIcon icon={faDribbble}></FontAwesomeIcon></a></li>
-                    <li><a class="linkedin" href="#"><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></a></li>   
+                    <li><a class="linkedin" href="https://www.linkedin.com/in/developer-aziz899/"><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></a></li> 
+                    <li><a class="facebook" href="https://web.facebook.com/profile.php?id=100011076887267"> <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon> </a></li>
+                    <li><a class="twitter" href="https://twitter.com/DAziz889"><FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></a></li>
+                    <li><a class="dribbble" href="https://github.com/abdulaziz899"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></a></li>  
                     </ul>
                 </div>
                     </div>
