@@ -38,10 +38,9 @@
 .servicesBox{
     width: 100%;
     height: 300px;
-    padding: 25x;
     background-color: rgb(240, 239, 238);
-    border-radius: 20px;
-    box-shadow: 10px 10px 30px rgb(203, 205, 206);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(88, 123, 141);
     transition: ease-in-out .5s;
 }
 .rowContainer{
@@ -60,6 +59,8 @@
 }
 .servicesBox p{
     text-align: left;
+    padding-left: 13px;
+    padding-right: 13px;
 }
 .servicesBox Button:hover{
     background-color: rgb(39, 26, 156);

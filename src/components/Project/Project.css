@@ -2,16 +2,16 @@
     width:380px;
     height: 500px;
     background-color: antiquewhite;
-    box-shadow: 10px 30px 30px rgb(194, 191, 191);
+    box-shadow: 0 0 10px rgb(68, 125, 153);
     transition: ease-in-out 0.5s;
-    border-radius: 20px; 
+    border-radius: 10px; 
     padding-bottom: 30px;
 }
 .projectBox:hover{
-    transform: rotateY(-25deg);
+    transform: scale(1.03);
 }
 .projectBox img{
-    border-radius: 20px;
+    border-radius: 10px;
     width: 100%;
     height: 250px;
 }

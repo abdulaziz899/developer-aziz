@@ -11,6 +11,14 @@
 .status{
     width: 350px;
     height: 400px;
+    box-shadow: 0px 0px 10px rgb(83, 221, 28);
+    border-radius: 5px;
+}
+.status h5{
+    text-align: center;
+}
+.status p{
+    padding: 0px 10px ;
 }
 @media(max-width:850px){
     .blogContainer{

@@ -12,7 +12,7 @@
 .reviewContainers{
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 20px;
+    grid-gap: 30px;
 }
 .hoverNow p{
     text-align: left;
@@ -23,7 +23,9 @@
     height: 100%;
     padding: 10px;
     background-color: aliceblue;
-    border-radius: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(77, 88, 190);
+
 }
 .hoverNow:hover{
     transform: scale(1.1);

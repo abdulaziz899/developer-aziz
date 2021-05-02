@@ -24,7 +24,7 @@ const Services = () => {
                     <div className="servicesBox text-center py-5">
                             <Button className='btn-success'><FontAwesomeIcon  icon={faFileCode}/></Button>
                             <h3 className='py-2 '>Web Developer</h3>
-                            <p>The role is responsible for designing, coding and modifying websites, from layout to function and according to a client's specifications. </p>
+                            <p className='pl-2'>The role is responsible for designing, coding and modifying websites, from layout to function and according to a client's specifications. </p>
                     </div>
                     
                         <div className="  servicesBox text-center py-5">
