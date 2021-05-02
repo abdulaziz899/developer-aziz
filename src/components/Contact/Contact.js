@@ -6,17 +6,22 @@ import { Link } from 'react-router-dom';
 import Aziz from '../../Img/azizBack.png'
 import Footer from '../Footer/Footer';
 import './Contact.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+    AOS.init(
+        {duration:2000,offset: 300,}
+        )
     return (
         <div className='' >
         <div className='contactContainer container  py-5'>
-            <div className='row mt-5 '>
+            <div data-aos="zoom-in-up"  className='row mt-5 '>
                     <div className="col-md-6 col-sm-12">
                         <img className='imageControls' src={Aziz} alt=""/>
                     </div>
                     <div className="col-md-6 col-sm-12 aboutContainer" >
-                        <h1>Hi There </h1>
+                        <h1>Hi I'm telling you now</h1>
                         <p>I am interested in working with your company that thinks my skill will be helpful for them. If you are looking for someone like me, please let me know. Or you can just 'say hi' to me.</p>
                         <h3>Name : MD ABDUL AZIZ</h3>
                         <h4>Phone : +8801776978991</h4>

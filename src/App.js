@@ -5,7 +5,6 @@ import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 import NavBar from './components/NavBar/NavBar';
 import Contact from './components/Contact/Contact';
 import WebSkills from './components/WebSkills/WebSkills';
-import New from './components/New/New';
 import WebDetail from './components/WebDetail/WebDetail';
 import ProgramingDetail from './components/ProgramingDetail/ProgramingDetail';
 import OtherDetail from './components/OtherDetail/OtherDetail';

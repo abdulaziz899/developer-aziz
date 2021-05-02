@@ -3,6 +3,7 @@ import { Button } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 import { Link } from 'react-router-dom';
 import './WebSkills.css';
+
 const WebSkills = () => {
     const history =useHistory();
     const handleTouch=()=>{
@@ -17,7 +18,6 @@ const WebSkills = () => {
                     <Link to='/other'><button className='btn btn-outline-success'>Other</button></Link> 
                     <Link to='/programing'><button className='btn btn-outline-success'>Programming</button></Link>
                     <Link to='/tools'><button  className='btn btn-outline-success'>Tools</button></Link>
-                    
                 </div>
             </section>
         </div>

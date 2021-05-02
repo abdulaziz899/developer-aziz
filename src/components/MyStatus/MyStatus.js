@@ -3,15 +3,20 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './MyStatus.css';
 import { useHistory } from 'react-router';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const MyStatus = () => {
     const history =useHistory();
     const sayHello=()=>{
         history.push('/contact')
     }
+    AOS.init(
+        {duration:500,offset: 300,}
+        )
     return (
         <div className='container'>
-            <div className='myContainer'>
+            <div data-aos="zoom-in" className='myContainer'>
                 <div className='sayHelloNow'>
                     <h2>User Satisfaction !</h2>
                     <p>My Main Goal </p>

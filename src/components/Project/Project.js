@@ -7,6 +7,8 @@ import './Project.css';
 import { Link, useHistory } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowCircleRight } from '@fortawesome/free-solid-svg-icons';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Project = () => {
@@ -14,10 +16,13 @@ const Project = () => {
     const showMore=()=>{
         history.push('/project');
     }
+    AOS.init(
+        {duration:1000,offset: 300,}
+        )
     return (
         <section className='my-5 container '>
             <h3 className=' w-100'>Some of Success Full Working Project .....  <button onClick={showMore} className="btn btn-success">All Project  <FontAwesomeIcon icon={faArrowCircleRight}></FontAwesomeIcon> </button> </h3>
-            <div className="projectHomeContainer my-5">
+            <div data-aos="fade-right"  className="projectHomeContainer  my-5">
                     <div className="text-center text-capitalize  projectBox">
                             <div className='projectImG'>
                                 <img  src={FoodInfinity} alt=""/>

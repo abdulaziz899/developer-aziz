@@ -5,6 +5,8 @@ import { Button } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 import dev from '../../Img/aaasvg.svg';
 import './AboutDetail.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const AboutDetail = () => {
     const history=useHistory();
@@ -14,11 +16,14 @@ const AboutDetail = () => {
     const goHome=()=>{
         history.push('/');
     };
+    AOS.init(
+        {duration:1000,offset: 300,}
+        )
     
     return (
         <div className='py-5 container'>
             <section className='my-5'>
-                <div className='row my-5'>
+                <div data-aos="zoom-in-up" className='row my-5'>
                     <div className=' col-lg-6 col-sm-12 my-5 py-5'>
                         <h2 className='text-success'>ABOUT ME</h2>
                         <ul className='d-flex w-75 justify-content-between'>

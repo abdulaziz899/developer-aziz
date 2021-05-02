@@ -7,18 +7,23 @@ import { Link, useHistory } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowAltCircleRight, faArrowCircleRight, faHome } from '@fortawesome/free-solid-svg-icons';
 import { Button } from 'react-bootstrap';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const AllProject = () => {
     const history =useHistory();
     const handleAboutMe=()=>{
         history.push('/About');
     };
+    
+    AOS.init(
+        {duration:2000,offset: 300,}
+        )
     return (
         <section className='mt-5 container pt-5'>
             <h3 className='ml-5 pl-5'>all Success Full Working Project .....  
                     <Button style={{width:"150px"}} onClick={handleAboutMe} className='btn-success '>About Me<FontAwesomeIcon className='ml-3' icon={faArrowAltCircleRight}></FontAwesomeIcon> </Button> </h3>
-                    <div className="projectHomeContainer my-5">
+                <div data-aos="zoom-in-up" className="projectHomeContainer my-5">
                     <div className="text-center text-capitalize  projectBox">
                             <div className='projectImG'>
                                 <img  src={FoodInfinity} alt=""/>
@@ -82,7 +87,6 @@ const AllProject = () => {
                             <button className="btn btn-success">Heroku</button>
                             <button className="btn btn-success">Material Ui</button>
                     </div>
-            </div>
                     <div className="text-center text-capitalize projectBox">
                             <div className='projectImG'>
                                 <img  src={SureToShop} alt=""/>
@@ -103,7 +107,9 @@ const AllProject = () => {
                             <button className="btn btn-success">Mongodb</button>
                             <button className="btn btn-success"> Bootstrap-4 </button>
                             <button className="btn btn-success">Heroku</button>
-                    </div>
+                </div>
+            </div>
+                    
         </section>
     );
 };

@@ -4,8 +4,12 @@ import { faAndroid, faFacebookF, faJs, faReact, faSketch } from '@fortawesome/fr
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Button } from 'react-bootstrap';
 import { faDesktop, faFileCode } from '@fortawesome/free-solid-svg-icons';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Services = () => {
+    AOS.init(
+        {duration:500,offset: 300,}
+        )
     return (
         <section className='container pt-5 mt-5'>
             <section className='services  pt-2 text-center'>
@@ -16,7 +20,7 @@ const Services = () => {
                     <div className='borderLine '></div>
                 </div>
             </section>
-            <div className=" rowContainer my-5  ">
+            <div data-aos="fade-down" className=" rowContainer my-5  ">
                     <div className="servicesBox text-center py-5">
                             <Button className='btn-success'><FontAwesomeIcon  icon={faFileCode}/></Button>
                             <h3 className='py-2 '>Web Developer</h3>
